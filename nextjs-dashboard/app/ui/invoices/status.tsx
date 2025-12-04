@@ -2,6 +2,9 @@ import { CheckIcon, ClockIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 
 export default function InvoiceStatus({ status }: { status: string }) {
+  /**
+   * clsx 라이브러리를 이용하여 동적으로 클래스를 추가할 수 있습니다.
+   */
   return (
     <span
       className={clsx(
